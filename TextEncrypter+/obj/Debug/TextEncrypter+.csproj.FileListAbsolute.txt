@@ -8,3 +8,17 @@ C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypte
 C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.csproj.CoreCompileInputs.cache
 C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.exe
 C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.pdb
+I:\C# Projects\TextEncrypter\TextEncrypter+\bin\Debug\TextEncrypter+.exe.config
+I:\C# Projects\TextEncrypter\TextEncrypter+\bin\Debug\TextEncrypter+.exe
+I:\C# Projects\TextEncrypter\TextEncrypter+\bin\Debug\TextEncrypter+.pdb
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.csprojResolveAssemblyReference.cache
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter_.Form1.resources
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter_.Properties.Resources.resources
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.csproj.GenerateResource.Cache
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.csproj.CoreCompileInputs.cache
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.exe
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.pdb
+I:\C# Projects\TextEncrypter\TextEncrypter+\bin\Debug\TextEncrypter+.exe.manifest
+I:\C# Projects\TextEncrypter\TextEncrypter+\bin\Debug\TextEncrypter+.application
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.exe.manifest
+I:\C# Projects\TextEncrypter\TextEncrypter+\obj\Debug\TextEncrypter+.application
