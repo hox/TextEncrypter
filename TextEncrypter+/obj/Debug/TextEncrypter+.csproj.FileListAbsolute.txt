@@ -1,0 +1,10 @@
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\bin\Debug\TextEncrypter+.exe.config
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\bin\Debug\TextEncrypter+.exe
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\bin\Debug\TextEncrypter+.pdb
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.csprojResolveAssemblyReference.cache
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter_.Form1.resources
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter_.Properties.Resources.resources
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.csproj.GenerateResource.Cache
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.exe
+C:\Users\Owner\source\repos\TextEncrypter+\TextEncrypter+\obj\Debug\TextEncrypter+.pdb
