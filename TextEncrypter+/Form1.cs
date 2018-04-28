@@ -12,52 +12,54 @@ namespace TextEncrypter_
 {
     public partial class Form1 : Form
     {
+
+        String mode = "Encrypt";
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public static string Base64Encode(string plainText)
         {
-            string enc_code = "QsWaEzDxRfCtGvYhBuJnIkmOlP";
-
-            string toCompile = textBox1.Text.ToLower();
-            textBox1.Clear();
-            char[] c = toCompile.ToCharArray();
-            for (int x = 0; x < c.Length; x++)
-            {
-                for (int y = 0; y < 25; y++)
-                {
-                    if (c[x] == (char)(97 + y))
-                    {
-                        c[x] = enc_code[y];
-                        break;
-                    }
-                }
-            }
-            textBox2.Text = new string(c);
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+            return System.Convert.ToBase64String(plainTextBytes);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public static string Base64Decode(string base64EncodedData)
         {
-            string enc_code = "QsWaEzDxRfCtGvYhBuJnIkmOlP";
-            string dec_code = "abcdefghijklmnopqrstuvwxyz";
+            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+        }
 
-            string toCompile = textBox4.Text;
-            textBox4.Clear();
-            char[] c = toCompile.ToCharArray();
-            for (int x = 0; x < c.Length; x++)
+        private void compileToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Encryption Meathod: Encrypt";
+            this.mode = "Encrypt";        
+        }
+
+        private void decompileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Encryption Meathod: Decrypt";
+            this.mode = "Decrypt";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(this.mode == "Decrypt")
             {
-                for (int y = 0; y < 25; y++)
-                {
-                    if (c[x] == enc_code[y])
-                    {
-                        c[x] = dec_code[y];
-                        break;
-                    }
-                }
+                textBox2.Text = Base64Decode(textBox1.Text);
+                textBox1.Clear();
+            } else
+            {
+                textBox2.Text = Base64Encode(textBox1.Text);
+                textBox1.Clear();
             }
-            textBox3.Text = new string(c);
+        }
+
+        private void exitProgramToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
